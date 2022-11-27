@@ -1,0 +1,18 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+# Fancy Garden design #2 for customer Maree Smith
+
+# the top beds
+   Rectangle 1.0 1.0 1.0 2.0
+   Circle 3.0 1.0 2.0 2.0
+   Rectangle 6.0 1.0 1.0 2.0
+   
+# the bottom beds
+   Circle 1.0 4.0 2.0 2.0
+   Circle 5.0 4.0 2.0 2.0

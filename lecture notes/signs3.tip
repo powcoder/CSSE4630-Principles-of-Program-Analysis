@@ -1,0 +1,14 @@
+fun(x) {
+    var extra;
+    extra = 5;
+    return x + extra;
+}
+
+main() {
+    var pos1, pos2, neg, answer;
+    pos1 = fun(15);
+    neg = fun(-10);
+    pos2 = fun(1);
+    answer = pos1 + pos2;
+    return answer;
+}

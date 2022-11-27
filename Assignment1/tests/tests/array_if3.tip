@@ -1,0 +1,20 @@
+main(){
+    var aa,i,result;
+    i = input;
+    result = 0;
+    aa = newarray 100;
+    // clamp i to 0..99
+    // this tests if assertions are added to explicit else branches
+    if (i > 99) {
+      i = 99;
+      result = 1;
+    } else if (0 > i) {
+      i = 0;
+      result = -1;
+    } else {
+      result = 0;
+    }
+    i = aa!i;
+    output i;
+    return result;
+}

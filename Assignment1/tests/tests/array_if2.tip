@@ -1,0 +1,14 @@
+main(){
+    var aa,i,result;
+    i = input;
+    result = 0;
+    aa = newarray 10;
+    // test if positive assertion bounds are tight.
+    if (i > -1) {
+      if (10 > i) {
+        aa!i = i;
+	result = 1;
+      }
+    }
+    return result;
+}

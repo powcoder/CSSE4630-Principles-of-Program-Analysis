@@ -1,0 +1,11 @@
+main(){
+    var aa,i,sum;
+    sum = 0;
+    i = 0;
+    aa = newarray 10;
+    while (10 > i) {
+      sum = sum + aa!i;
+      i = i + 1;
+    }
+    return sum;
+}

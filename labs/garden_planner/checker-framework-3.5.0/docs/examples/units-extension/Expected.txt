@@ -1,0 +1,19 @@
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+https://powcoder.com
+代写代考加微信 powcoder
+Assignment Project Exam Help
+Add WeChat powcoder
+Demo.java:14: error: [assignment.type.incompatible] incompatible types in assignment.
+        frq = 5;
+              ^
+  found   : @UnknownUnits int
+  required: @Hz int
+Demo.java:67: error: [assignment.type.incompatible] incompatible types in assignment.
+        @Hz int badTernaryAssign = seconds > 10 ? hertz : kilohertz;
+                                                ^
+  found   : @Frequency int
+  required: @Hz int
+2 errors

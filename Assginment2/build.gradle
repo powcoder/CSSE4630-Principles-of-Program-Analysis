@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'idea' // optional (to generate IntelliJ IDEA project files)
+    id 'info.solidsoft.pitest' version '1.5.1'
+}
+
+group 'string_sets'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+
+    // aggregate jqwik dependency
+    testImplementation "net.jqwik:jqwik:1.3.6"
+}
+
+test {
+    useJUnitPlatform{
+        includeEngines("junit-jupiter", 'jqwik')
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+pitest {
+    //adds dependency to org.pitest:pitest-junit5-plugin and sets "testPlugin" to "junit5"
+    junit5PluginVersion = '0.12'
+    targetClasses = ['string_sets.MySet0']
+    targetTests = ['string_sets.MySet0Test']
+    //targetTests = ['string_sets.JqwikMySet0Test']
+}

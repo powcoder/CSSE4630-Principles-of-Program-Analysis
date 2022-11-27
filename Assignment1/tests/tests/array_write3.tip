@@ -1,0 +1,10 @@
+main(){
+    var aa, count;
+    count = 0;
+    aa = newarray 10;
+    aa!count = 1;
+    aa!(count + 1) = 2;
+    count = count + 5;
+    aa!(count + 2*2) = 100; 
+    return aa!9;
+}

@@ -1,0 +1,8 @@
+main(){
+    var aa,val;
+    aa = newarray 10;
+    aa!1 = 1;
+    aa!9 = aa!9 + 100;
+    val = aa!1;
+    return val;
+}

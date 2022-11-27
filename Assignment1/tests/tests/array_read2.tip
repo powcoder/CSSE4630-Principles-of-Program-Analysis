@@ -1,0 +1,8 @@
+main(){
+    var aa,p;
+    aa = newarray 10;
+    p = aa!0;
+    p = p + aa!(4+5);
+    p = p + aa!10;
+    return p;
+}

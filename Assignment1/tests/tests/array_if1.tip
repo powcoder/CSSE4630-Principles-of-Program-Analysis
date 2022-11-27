@@ -1,0 +1,13 @@
+main(){
+    var aa,i,result;
+    i = input;
+    result = 0;
+    aa = newarray 10;
+    if (i > 0) {
+      if (8 > i) {
+        aa!i = i;
+	result = 1;
+      }
+    }
+    return result;
+}
